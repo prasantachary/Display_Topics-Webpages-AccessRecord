@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>htmlforms</title>
+</head>
+<body>
+
+    <center>
+    <h1>Data Insertion in Topic Table</h1>
+    <form method="POST">
+        {% csrf_token %}
+        
+        <label for="un">TopicName</label>
+        <input type="text" name="tn" id="tn"> <br> <br>
+
+        <input type="Submit" value="create">
+    </form>
+</center>
+</body>
+</html>
